@@ -1,0 +1,15 @@
+Host github.com
+  User git
+  IdentityFile ~/.ssh/github
+
+Host vs-ssh.visualstudio.com
+  User bp-vsts
+  IdentityFile ~/.ssh/ado-bp
+  PubkeyAcceptedAlgorithms +ssh-rsa
+  HostkeyAlgorithms +ssh-rsa
+
+Host 172.16.10.1
+  PubkeyAcceptedAlgorithms +ssh-rsa
+  HostkeyAlgorithms +ssh-rsa
+
+
